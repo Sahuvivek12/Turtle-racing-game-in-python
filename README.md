@@ -33,7 +33,7 @@ Welcome to the Turtle Racing Game! This fun and interactive Python project lets 
 
    - Enter the number of turtles (between 2 and 8) when prompted.
    - Watch as the turtles race across the screen.
-   - The winner is announced at the end of the race.
+   - The turtle that crosses the finish line first is declared the winner.
 
 ## Code Overview
 
