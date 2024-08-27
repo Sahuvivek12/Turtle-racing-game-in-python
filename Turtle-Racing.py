@@ -40,11 +40,25 @@ def create_turtles(colors):
         turtles.append(racing_turtle)
     return turtles
 
+def draw_finish_line(screen):
+    finish_line = WIDTH // 2 - 40
+    line_turtle = turtle.Turtle()
+    line_turtle.hideturtle()
+    line_turtle.speed(0)
+    line_turtle.color('white')
+    line_turtle.penup()
+    line_turtle.goto(finish_line, HEIGHT // 2)
+    line_turtle.pendown()
+    line_turtle.right(90)
+    line_turtle.forward(HEIGHT)
+    line_turtle.penup()
+
 def init_turtle():
     screen = turtle.Screen()
     screen.setup(WIDTH, HEIGHT)
     screen.title('Turtle Racing')
     screen.bgcolor('black')
+    draw_finish_line(screen)
 
 turtles_count = get_number_of_turtles()
 init_turtle()
