@@ -40,7 +40,8 @@ Welcome to the Turtle Racing Game! This fun and interactive Python project lets 
 - **`get_number_of_turtles()`:** Prompts the user to enter the number of turtles.
 - **`race(turtles)`:** Manages the racing logic, moving turtles forward by random amounts until one reaches the finish line.
 - **`create_turtles(colors)`:** Creates and positions the turtles on the screen.
-- **`init_turtle()`:** Sets up the screen with a title and size.
+- **`draw_finish_line(screen)`:** Draws a vertical finish line at the end of the race track.
+- **`init_turtle()`:** Sets up the screen with a title, size, background color, and draws the finish line.
 
 ## Contributing
 
